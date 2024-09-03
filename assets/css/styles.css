@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap');
+
+body {
+    font-family: 'Courier Prime', 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(75, 106, 79, 1);
+    color: rgba(245, 239, 231, 1);
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 56px 80px;
+    overflow: hidden;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 1023px;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+}
+
+.h1 {
+    font-size: 3rem;
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 318px;
+    color: rgba(245, 239, 231, 1);
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    font-size: 2.25rem;
+}
+
+.navlinks {
+    color: rgba(245, 239, 231, 1);
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 6rem;
+    font-weight: bold;
+    margin-bottom: 56px;
+}
+
+h1 {
+    font-style: italic;
+}
+
+section {
+    font-size: 1.875rem;
+    margin-bottom: 56px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+footer {
+    font-size: 1.875rem;
+    /* font-weight: bold; */
+    line-height: 2.5;
+}
+
+.small-text {
+    font-size: 1.5rem;
+    color: rgba(245, 239, 231, 1);
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.bottom-section {
+    display: flex;
+    gap: 20px;
+    max-width: 940px;
+    width: 100%;
+    margin-top: 160px;
+}
+
+.left-column {
+    width: 77%;
+}
+
+.right-column {
+    width: 23%;
+}
+
+/* Projects Page Styling */
+.project-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0,0.1);
+    overflow: hidden;
+    width: 300px;
+    margin: 20px;
+}
+
+.project-card {
+    width: 100%;
+    height:auto;
+    display: block;
+}
+
+.project-info {
+    padding: 15px;
+}
+
+
+
+@media (max-width: 768px) {
+    .container {
+        padding: 56px 20px;
+    }
+
+    h1 {
+        font-size: 2.25rem;
+    }
+
+    h2 {
+        font-size: 2.25rem;
+        margin-top: 40px;
+    }
+
+    .bottom-section {
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .left-column,
+    .right-column {
+        width: 100%;
+    }
+
+    .right-column {
+        margin-top: 40px;
+    }
+}
