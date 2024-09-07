@@ -8,51 +8,86 @@
     <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <div class="content">
-            <div class="header">
-                <a class='h1' href="https://people.tamu.edu/~nicoromero2004">Nicolas Romero</a>
-                <div class="nav">
-                    <a class="navlinks" href="https://people.tamu.edu/~nicoromero2004/projects">Projects</a>
-                    <a class="navlinks" href="https://people.tamu.edu/~nicoromero2004/career">Career</a>
-                    <a class="navlinks" href="https://people.tamu.edu/~nicoromero2004/about">About</a>
+    <div>
+        <header>
+            <div class="title">
+                <a class="navName" href="index.html">Nicolas Romero</a>
+            </div>
+            <nav>
+                <a class="nav-link" href="projects.html">Projects</a>
+                <a class="nav-link" href="career.html">Career</a>
+                <a class="nav-link" href="about.html">About</a>
+            </nav>
+        </header>
+        <main>
+            <h1 class="page-title">About</h1>
+            <h1 class="about-header">Hello</h1>
+            <div class="about-container">
+                <div class="about-text">
+                    <p>
+                        I am Nico - an aspiring software engineer that loves creating 
+                        functional and beautiful products.
+                    </p>
+                    <p>
+                        In my free time I enjoy bouldering and climbing top-rope. I also
+                        love trying new cuisines, so you’ll find me trying new restaurants 
+                        frequently.
+                    </p>
+                    <p>
+                        I also love to travel and experience new places and cultures. I have 
+                        been fortunate enough to have visited Canada, Mexico, England, Spain, 
+                        France, The Netherlands, Belgium, Italy, Oman, the United Arab Emirates, 
+                        India, Sri Lanka, Thailand, and Japan. I was lucky enough to have spent 
+                        8 years living in Doha, Qatar during my childhood. 
+                    </p>
+                </div>
+                <div class="about-image-container">
+                    <img src="assets/images/headshot.jpg" alt="headshot" class="about-image">
                 </div>
             </div>
-            <main>
-                <h2>Howdy!</h2>
-                <h1> Hello</h1>
-                <section>
-                    I am Nico - an aspiring software engineer that loves creating functional and beautiful products. 
-                    <br><br>
-                    In my free time I enjoy bouldering and climbing top-rope. I also love trying new cuisines, so you’ll find me trying new restaurants frequently.
-                    <br><br>
-                    I also love to travel and experience new places and cultures. I have been fortunate enough to have visited Canada, Mexico, England, Spain, France, 
-                    The Netherlands, Belgium, Italy, Oman, the United Arab Emirates, India, Sri Lanka, Thailand, and Japan. I was lucky to have spent 8 years living in 
-                    Doha, Qatar during my childhood. 
-                </section>
-                <div class="nav">
-                    <a class="navlinks" href="https://people.tamu.edu/~nicoromero2004/ai">AI Generated Page</a>
-                </div>
-            </main>
-            <div class="bottom-section">
-                <div class="left-column">
-                    <footer>
-                        Thank you for stopping by! <br>
-                        <span class="Bold">Contact me at </span>
-                        <a href="mailto:nicolas.m.romero.2004@gmail.com" class="small-text underline">
-                            nicolas.m.romero.2004@gmail.com
-                        </a>
-                        <a href="/assets/Resume_2026 - Copy.pdf" class="small-text underline">Resume</a>
-                        <span class="small-text"> | </span>
-                        <a href="https://www.linkedin.com/in/Nicolas-Mateo-Romero/" class="small-text underline">LinkedIn</a>
-                        <span class="small-text"> | </span>
-                        <a href="https://github.com/nicolas-m-romero" class="small-text underline">Github</a>
-                        <br>
-                        <span class="small-text">Made by Nicolas Romero :)</span>
-                    </footer>
-                </div>
+            <div class="link-container">
+                <a href="service.html" class="about-link">
+                    <div class="about-card">
+                            <h2 class="about-card-title">Service</h2>
+                        <p class="about-description">A brief look into how I serve the community</p>
+                        <div class="about-card-image-container">
+                            <img src="assets/images/service.jpg" alt="service" class="about-card-image">
+                        </div>
+                    </div>
+                </a>
+                <a href="ai.html" class="about-link">
+                    <div class="about-card">
+                        <h2 class="about-card-title">AI Page</h2>
+                        <p class="about-description">A page completely generated with help of AI</p>
+                        <div class="about-card-image-container">
+                            <img src="assets/images/ai.png" alt="ai" class="about-card-image">
+                        </div>
+                    </div>
+                </a>
             </div>
-        </div>
+        </main>
+    </div>
+    <div>
+        <footer>
+            <div class="left-column">
+                <p class="footer-top">Thank you for stopping by!</p>
+                <p class="footer-line">
+                    Contact me at 
+                    <a href="mailto:nicolas.m.romero.2004@gmail.com" class="footer-link">
+                    nicolas.m.romero.2004@gmail.com
+                    </a>
+                </p>
+                <p class="footer-line">
+                    <a href="/assets/Resume_2026 - Copy.pdf" class="footer-link">Resume</a> | 
+                    <a href="https://www.linkedin.com/in/Nicolas-Mateo-Romero/" class="footer-link">LinkedIn</a> |
+                    <a href="https://github.com/nicolas-m-romero" class="footer-link">Github</a>
+                </p>
+                <p class="footer-line">Made by Nicolas Romero :)</p>
+            </div>
+            <div class="right-column">
+                <button class="btn zoom-out zoom-out--green">Change CSS</button>
+            </div>
+        </footer>
     </div>
 </body>
 </html>

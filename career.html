@@ -8,68 +8,119 @@
     <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <div class="content">
-            <div class="header">
-                <a class='h1' href="https://people.tamu.edu/~nicoromero2004">Nicolas Romero</a>
-                <div class="nav">
-                    <a class="navlinks" href="https://people.tamu.edu/~nicoromero2004/projects">Projects</a>
-                    <a class="navlinks" href="https://people.tamu.edu/~nicoromero2004/career">Career</a>
-                    <a class="navlinks" href="https://people.tamu.edu/~nicoromero2004/about">About</a>
+    <div>
+        <header>
+            <div class="title">
+                <a class="navName" href="index.html">Nicolas Romero</a>
+            </div>
+            <nav>
+                <a class="nav-link" href="projects.html">Projects</a>
+                <a class="nav-link" href="career.html">Career</a>
+                <a class="nav-link" href="about.html">About</a>
+            </nav>
+        </header>
+        <main>
+            <h1 class="page-title">Career</h1>
+            <div class="career-container">
+                <div class="career-description">
+                    <h3>Technical Areas of Interest:</h3>
+                    <p>
+                        I personally have the most experience in traditional software engineering roles, 
+                        but I am also interested in machine learning, specifically computer vision. 
+                        I prefer to work on web development projects because there is a lot of 
+                        online support for web development, and a lot of the popular technologies are 
+                        easy to use and learn. I have the most professional experience with Java, but am currently
+                        looking to expand my experience in web development technologies and frameworks like NextJS 
+                        and React.js. I am always looking to learn more and expand my skill set.
+                    </p>
+                    <h4>Technical Skills:</h4>
+                    <p>
+                        Java, Python, C++, SQL, HTML, CSS, JavaScript, React.js, Node.js, Git, Agile
+                    </p>
+                </div>
+                <div class="career-card">
+                    <div class="career-icon-container">
+                        <img src="assets/images/AWS_Logo.png" alt="AWS Logo" class="career-icon">
+                    </div>
+                    <div class="card-right">
+                        <h2 class="career-card-title">Software Engineer Intern</h2>
+                        <p class="career-card-company">Amazon Web Services</p>
+                        <p>May 2024 - August 2024</p>
+                        <p class="career-card-description">
+                            Worked individually to create an internal tool to store and template LLM
+                            prompts using Java. Deployed a classification model using AWS SageMaker,
+                            AWS S3, and AWS Lambda to predict the user intent from a prompt.
+                        </p>
+                    </div>
+                </div>
+                <div class="career-card">
+                    <div class="career-icon-container">
+                        <img src="assets/images/AI4ALL_Logo.jpg" alt="ACC Logo" class="career-icon">
+                    </div>
+                    <div class="card-right">
+                        <h2 class="career-card-title">Discover AI Participant</h2>
+                        <p class="career-card-company">AI4ALL</p>
+                        <p>August 2023 - Decemeber 2023</p>
+                        <p class="career-card-description">
+                            Investigated the ethical implications of AI, and explored over 
+                            10 technical AI concepts, encompassing machine learning,
+                            neural networks, and gradient descent.
+                        </p>
+                    </div>
+                </div>
+                <div class="career-card">
+                    <div class="career-icon-container">
+                        <img src="assets/images/TAMU_Logo.png" alt="ACC Logo" class="career-icon">
+                    </div>
+                    <div class="card-right">
+                        <h2 class="career-card-title">Student Assistant</h2>
+                        <p class="career-card-company">Texas A&M College of Engineering</p>
+                        <p>August 2023 - December 2023</p>
+                        <p class="career-card-description">
+                            Facilitated the instruction of the introductory Python course required for undergraduate
+                            engineers, supporting 100+ students. Managed the grading and proctoring assignments
+                            and exams.
+                        </p>
+                    </div>
+                </div>
+                <div class="btn-container">
+                    <button class="btn zoom-out zoom-out--green" onclick="showResume()">See Resume</button>
+                    <embed id="resume" src="assets/Resume_2026 - Copy.pdf" type="application/pdf" width="100%" height="600px" display="block">
                 </div>
             </div>
-            <main>
-                <h2>Howdy!</h2>
-                <div class="project-card">
-                    <img src="assets/images/AWS_Logo.png" alt="AWS Logo" class="project-image">
-                    <div class="project-info">
-                        <h3>Software Engineer Intern</h3>
-                        <div class="tech-stack">
-                            <p>Amazon Web Services</p>
-                            <p>May 2024 - August 2024</p>
-                            <p>New York, NY</p>
-                        </div>
-                </div>
-                <div class="project-card">
-                    <img src="assets/images/ACC_Logo.jpg" alt="ACC Logo" class="project-image">
-                    <div class="project-info">
-                        <h3>Project Manager</h3>
-                        <div class="tech-stack">
-                            <p>Aggie Coding Club</p>
-                            <p>September 2023 - May 2024</p>
-                            <p>College Station, TX</p>
-                        </div>
-                </div>
-                <div class="project-card">
-                    <img src="assets/images/TAMU_Logo.png" alt="TAMU Logo" class="project-image">
-                    <div class="project-info">
-                        <h3>Student Assitant</h3>
-                        <div class="tech-stack">
-                            <p>Texas A&M Department of Engineering</p>
-                            <p>August 2023 - December 2023</p>
-                            <p>College Station, TX</p>
-                        </div>
-                </div>
-            </main>
-            <div class="bottom-section">
-                <div class="left-column">
-                    <footer>
-                        Thank you for stopping by! <br>
-                        <span class="Bold">Contact me at </span>
-                        <a href="mailto:nicolas.m.romero.2004@gmail.com" class="small-text underline">
-                            nicolas.m.romero.2004@gmail.com
-                        </a>
-                        <a href="/assets/Resume_2026 - Copy.pdf" class="small-text underline">Resume</a>
-                        <span class="small-text"> | </span>
-                        <a href="https://www.linkedin.com/in/Nicolas-Mateo-Romero/" class="small-text underline">LinkedIn</a>
-                        <span class="small-text"> | </span>
-                        <a href="https://github.com/nicolas-m-romero" class="small-text underline">Github</a>
-                        <br>
-                        <span class="small-text">Made by Nicolas Romero :)</span>
-                    </footer>
-                </div>
-            </div>
-        </div>
+        </main>
     </div>
+    <div>
+        <footer>
+            <div class="left-column">
+                <p class="footer-top">Thank you for stopping by!</p>
+                <p class="footer-line">
+                    Contact me at 
+                    <a href="mailto:nicolas.m.romero.2004@gmail.com" class="footer-link">
+                    nicolas.m.romero.2004@gmail.com
+                    </a>
+                </p>
+                <p class="footer-line">
+                    <a href="/assets/Resume_2026 - Copy.pdf" class="footer-link">Resume</a> | 
+                    <a href="https://www.linkedin.com/in/Nicolas-Mateo-Romero/" class="footer-link">LinkedIn</a> |
+                    <a href="https://github.com/nicolas-m-romero" class="footer-link">Github</a>
+                </p>
+                <p class="footer-line">Made by Nicolas Romero :)</p>
+            </div>
+            <div class="right-column">
+                <button class="btn zoom-out zoom-out--green">Change CSS</button>
+            </div>
+        </footer>
+    </div>
+    <script>
+        function showResume() {
+            var x = document.getElementById("resume");
+            if (x.style.display === "none" || x.style.display === "") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
 </body>
 </html>
