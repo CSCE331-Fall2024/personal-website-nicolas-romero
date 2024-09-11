@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nicolas Romero</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+    <link id="theme-dark" rel="stylesheet" href="assets/css/styles.css">
+    <link id="theme-light" rel="stylesheet" href="assets/css/styles2.css" disabled>
+    <script src="assets/js/functions.js"></script>
 </head>
-<body>
-    <div>
+<body onload="applyTheme()">
+    <div class="top">
         <header>
             <div class="title">
                 <a class="navName" href="index.html">Nicolas Romero</a>
@@ -108,11 +109,11 @@
                 <p class="footer-line">Made by Nicolas Romero :)</p>
             </div>
             <div class="right-column">
-                <button class="btn zoom-out zoom-out--green">Change CSS</button>
+                <button class="btn zoom-out zoom-out--green" onclick="toggleStyle()">Change CSS</button>
             </div>
         </footer>
     </div>
-    <script>
+    <!-- <script>
         function showResume() {
             var x = document.getElementById("resume");
             if (x.style.display === "none" || x.style.display === "") {
@@ -121,6 +122,6 @@
                 x.style.display = "none";
             }
         }
-    </script>
+    </script> -->
 </body>
 </html>
