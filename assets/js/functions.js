@@ -26,13 +26,3 @@ function applyTheme() {
         lightTheme.disabled = false;
     }
 }
-
-// Function to toggle between resume visibility on Career page
-function showResume() {
-    var x = document.getElementById("resume");
-    if (x.style.display === "none" || x.style.display === "") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
-}

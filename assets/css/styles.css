@@ -355,10 +355,6 @@ footer {
     margin-bottom: 2.5rem;
 }
 
-#resume{
-    display: none;
-}
-
 @media only screen and (max-width: 768px) {
     
     body {
