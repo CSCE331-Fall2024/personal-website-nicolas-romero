@@ -121,7 +121,6 @@ footer {
     display: flex;
     align-items: flex-start;
     max-width: 80ch;
-    /* padding-inline: 1rem; */
     margin-inline: auto;
     margin-bottom: 1rem;
     border-radius: 10px;
@@ -224,10 +223,6 @@ footer {
     border-radius: 10px;
 }
 
-/* .career-card:hover {
-    background-color: rgba(199, 178, 153, 1);
-} */
-
 .card-right {
     border-radius: 10px;
 }
@@ -250,13 +245,10 @@ footer {
 
 .career-icon-container {
     display: flex;
-    /* padding-right: 1em; */
-    /* min-width: 14rem; */
     max-width: 18rem;
     margin: auto;
     align-items: center;
     width: 100%;
-    /* justify-content: center; */
 }
 
 .career-icon {
@@ -288,7 +280,6 @@ footer {
     flex-direction: column;
     align-items: flex-start;
     max-width: 80ch;
-    margin-bottom: 2.5rem;
     border-radius: 10px;
     transition: all 0.3s ease;
     border-radius: 15%;
@@ -300,8 +291,6 @@ footer {
     justify-content: space-between;
     align-items: center;
     vertical-align: center;
-    /* padding-right: 1em; */
-    /* min-width: 16rem; */
     max-width: 16rem;
     order: 0;
 }
@@ -318,7 +307,6 @@ footer {
     overflow: hidden;
     width: 100%;
     height: auto;
-    /* margin-left: 1em; */
 }
 
 .link-container {

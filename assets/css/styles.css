@@ -274,7 +274,6 @@ footer {
     flex-direction: row;
     align-items: flex-start;
     max-width: 80ch;
-    margin-bottom: 2.5rem;
     border-radius: 10px;
     transition: all 0.3s ease;
     border-radius: 15%;
